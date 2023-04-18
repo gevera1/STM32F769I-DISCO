@@ -1,6 +1,10 @@
 # ignore the STM32 library
 stm32lib/
 
+# Ignore zone identifiers
+*:Zone.Identifier*
+
 # ignore everything that's not a source, header, assembly, or linker file
 !*.[chS]
 !*.ld
+!Makefile
