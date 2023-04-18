@@ -56,7 +56,7 @@ LAB-01-Template.list \
 OBJCOPY_BIN += \
 LAB-01-Template.bin \
 
-LINKER = /home/agevero/STM32F769NI-DISCO/BARE-METAL/LAB-01-Template/LinkerScript.ld
+LINKER = /home/agevero/STM32F769I-DISCO/BARE-METAL/LAB-01-Template/LinkerScript.ld
 
 # All Target
 all: main-build
