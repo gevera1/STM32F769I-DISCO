@@ -1,0 +1,6 @@
+# ignore the STM32 library
+stm32lib/
+
+# ignore everything that's not a source, header, assembly, or linker file
+!*.[chS]
+!*.ld
